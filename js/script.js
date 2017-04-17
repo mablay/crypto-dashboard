@@ -33,8 +33,8 @@ function loadChartData() {
 
     var url1day = baseUrl + USD_BTC + TIME_RANGE + '&period='+DAY_1;
 
-    var cacheUrl1day = 'http://127.0.0.1:8080/files/polo-USDT_BTC-day.json';
-    var cacheUrlPoloUsdBtc = 'http://127.0.0.1:8080/files/polo-USDT_BTC.json';
+    var cacheUrl1day = '/files/polo-USDT_BTC-day.json';
+    var cacheUrlPoloUsdBtc = '/files/polo-USDT_BTC.json';
 
     var url = cacheUrl1day;
     $.getJSON(url).done(function(data) {
