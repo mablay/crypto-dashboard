@@ -1,0 +1,10 @@
+{
+  "name": "minimal-playground",
+  "scripts": {
+    "start": "node node_modules/live-server/live-server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
